@@ -1,0 +1,63 @@
+<!DOCTYPE html>																			<!--Définition du DTD HTML5 -->
+<html>
+<head>
+	<meta charset="UTF-8" />														<!--Encodage UTF-8 -->
+	<title>Bagel&Co</title>													<!--Titre de la page -->
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="reseauxsociaux.css" /><!--Lien vers la feuille de style CSS -->
+</head>
+<body>
+<!-- Zone de titre -->
+<div class="row">
+	<div class="col-sm-4 col-lg-4 p-1 my-2 bg-info text-white" id='p13'>
+
+<div id="titre">
+	<img src="img/logo2.png" width="200" height="auto"/>							<!--Insertion du logo -->
+	<h1>Bagel&Co</h1>
+	</div>
+</div>
+<!-- Zone de menu -->
+<div id="menu">
+	<ul>
+		<li><a  href="index.html">ACCUEIL</a></li>
+		<li><a href="plats.html">NOS PLATS</a></li>
+		<li><a href="mangezsurplace.html">MANGEZ SUR PLACE</a></li>
+	</ul>
+</div>
+
+<h1>Formulaire de Commande</h1>
+
+<form id="inscription">					<!-- Création d'un formulaire d'identifiant "inscription" permettant notamment d'appliquer une couleur de fond au formulaire en CSS-->
+	Nom:<br>
+	<input type="text" name="nom">			<!-- Ajout d'une zone de texte au formulaire-->
+	<br>
+	Prénom:<br>
+	<input type="text" name="prenom">
+	<br><br>
+	Sélectionner le cours auquel vous voulez participer :
+	<select name="cars">					<!-- Ajout d'une liste déroulante au formulaire-->
+		<option value="c1">Nos Salades</option>
+		<option value="c2">Nos Bagels</option>
+		<option value="c2">Nos Donuts</option>
+		<option value="c2">Nos Muffins</option>
+		<option value="c2">Nos Cookies</option>
+	</select>
+	<br><br>
+	<textarea name="message" rows="10" cols="30">
+				Précisez le contenu de votre commande.
+			</textarea>
+	<br><br>
+	<input type="checkbox" name="majeur" value="majeur">Cochez si vous êtes étudiant <!-- Ajout d'une check box-->
+	<br><br>
+	<input type="submit" value="Valider">		<!-- Ajout d'un bouton avec le texte valider-->
+</form>
+
+<!-- Zone pied page -->
+	<div id="pied">
+		<div class="conteneur">
+			<a href="#" class="social"><img src="img/insta.png" alt="social"/> </a>
+			<a href="#" class="social"><img src="img/face.png" alt="social"/> </a>
+		</div>
+	</div>
+</body>
+</html>

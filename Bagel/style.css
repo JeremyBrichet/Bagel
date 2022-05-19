@@ -1,0 +1,154 @@
+
+body {
+	background:#FFFFFF;/*propriété pour modifier la couleur de fond*/
+	font-family:sans-serif;/*propriété pour modifier la police d'écriture*/
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+}
+
+
+/*Styles de la zone de titre
+-------------------------------------------------*/
+#titre {
+	text-align:center;/*propriété pour modifier l'alignement du texte, exemple center, justify, left, right*/
+	font-size:140%;/*propriété pour modifier la taille de la police, peut être en %, cm, em, px*/
+	line-height:80%;
+	color:#0067AB;/*propriété pour modifier la couleur du texte*/
+	overflow:hidden;/*propriété pour permettant d'indiquer l'action à réaliser si le contenu (texte, image) dépace la taille du bloc, hidden on tronque, scroll on ajoute une barre de défillement*/
+	height:200px;/*propriété pour fixer la hauteur du bloc, ici 200 pixels*/
+}
+
+#titre img {
+	float:left;
+	margin:5px;/*propriété pour créer une marge extérieure au bloc*/
+}
+
+
+
+/*styles de la zone de menu
+-----------------------------------------------------*/
+#menu {
+	background:#0067AB;
+	padding:3px;/*propriété pour créer une marge intérieure au bloc*/
+	
+}
+
+#menu li {
+	display:inline-block;
+}
+
+#menu #select {
+	background:#fff;
+	color:#444;
+}
+
+#menu a {
+	text-decoration:none;
+	color:#fff;
+	background:#444;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#menu a:hover {
+	background:#999;
+}
+
+
+
+/*Styles de la zone d' infos
+------------------------------------------------------*/
+#infos {
+	display:inline-block;/*propriété pour préciser le comportement de la zone, soit inline, soit block, soit la combinaison des deux comportement avec inline-block*/
+	font-size:75%;
+	width:25%;/*propriété pour préciser la largueur du bloc par rapport à la page ou à un bloc  en %, 100% pour la largueur totale*/
+	float:right;/*propriété pour définir ou le bloc doit se placer*/
+	vertical-align:top;
+	right:0px;
+	background:#A6C8E9;
+	
+}
+
+#infos h2 {
+	text-align:center;
+}
+
+#infos>div {
+	overflow:auto;/*si le contenu dépasse le bloc, on crée une barre de défillement*/
+	height:400px;
+}
+
+.info {
+	height:250px;
+	overflow:hidden;
+	border:solid 2px #fff;/*propriété pour créer une bordure en précisant son épaisseur et sa couleur*/
+	padding:3px;
+	margin:5px;
+	text-align:justify;
+}
+
+/*Styles de la zone d' articles
+---------------------------------------------------*/
+#bloc_accueil {
+	display:inline-block;
+	width:75%;
+}
+/*
+.annonce {
+	text-align:justify;
+	padding:10px;
+	padding-bottom:20px;
+	background:#0000;
+	color:#000;
+}*/
+
+/*Styles de la zone de pied de page
+-------------------------------------------------------*/
+#pied{
+	padding:3px;
+	text-align:center;
+	font-size:75%;
+	background:#0067AB;
+}
+
+/*Styles de la zone galerie
+-------------------------------------------------------*/
+#photos {
+	padding:10px;
+	color:#000;
+}
+
+.photo {
+	display:inline-block;
+	position:relative;
+	border:4px solid #0067AB;
+	background:#fff;
+	margin:5px;
+	padding:5px;
+	
+}
+
+.photo>div {
+	height:300px;
+	overflow:hidden;
+}
+	
+.photo p {
+	text-align:center;
+	background:#789;
+	margin:0px;
+	margin-top:5px;
+}
+
+
+/*Styles du formulaire d'inscription
+---------------------------------------------------*/
+#inscription {
+	padding:20px;
+	height:420px;
+	background:#A6C8E9;
+	width:75%;
+}
